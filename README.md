@@ -69,8 +69,9 @@ Documentation for the project:
 
 4. Access the system at http://127.0.0.1:8000/.
 
+---
 
 ### **Technologies Used**
-**Hardware:** Arduino, Fingerprint Sensor.
-**Software:** Django, Python, SQLite, Bootstrap.
-**APIs:** Custom APIs for fingerprint matching and data transfer.
+- **Hardware:** Arduino, Fingerprint Sensor.
+- **Software:** Django, Python, SQLite, Bootstrap.
+- **APIs:** Custom APIs for fingerprint matching and data transfer.
