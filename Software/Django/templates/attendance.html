@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Take Attendance{% endblock %}
+
+{% block content %}
+    <h2>Take Attendance</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <p>Place a finger on the biometric scanner to record attendance.</p>
+        <button type="submit">Mark Attendance</button>
+    </form>
+    <p>Attendance status: {{ status }}</p>
+{% endblock %}
